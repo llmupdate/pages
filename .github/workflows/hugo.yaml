@@ -59,7 +59,7 @@ jobs:
           hugo \
             --gc \
             --minify 
-        # --baseURL "${{ steps.pages.outputs.base_url }}/"          
+        # --baseURL "${{ steps.pages.outputs.base_url }}/"   # comment this line for customized domain       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
