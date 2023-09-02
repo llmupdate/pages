@@ -4,7 +4,8 @@ date: {{ .Date }}
 draft: true
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["LLaMa", "GPT", "SAM", "ChatGPT", "StableDiffusion"]
+categories: ["LLM List", "Progress"]
 author: "David"
 # author: ["Me", "You"] # multiple authors
 

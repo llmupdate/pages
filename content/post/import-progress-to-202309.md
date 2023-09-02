@@ -1,6 +1,8 @@
 ---
 title: "大模型和AI到 202309 的重要进展"
 date: 2023-09-01T20:05:01+08:00
+tags: ["LLaMa", "GPT", "SAM", "ChatGPT", "StableDiffusion"]
+categories: ["LLM List", "Progress"]
 draft: false
 ---
 

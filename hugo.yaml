@@ -1,4 +1,4 @@
-baseURL: "https://llmupdate.com/"
+baseURL: "https://llmupdate.com"
 title: LLM Update - 大模型周报
 paginate: 5
 theme: PaperMod
@@ -98,7 +98,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/llmupdate/llmupdate.github.io"
+    URL: "https://github.com/llmupdate/pages/tree/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
