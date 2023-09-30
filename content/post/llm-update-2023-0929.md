@@ -106,18 +106,27 @@ https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-qianwen-7b-14b-a
 [Falcon 180B Demo](https://huggingface.co/spaces/tiiuae/falcon-180b-demo)
 
 
-## 彩蛋分享：如何运行 WizardCoder 15B, 34B 代码生成模型
+## 彩蛋分享-代码生成：如何运行 WizardCoder 15B, 34B，Phind CodeLlama 34B 代码生成模型
 
-代码生成模型里面先后有 CodeGeex, StarCoder, WizardCoder, CodeLLaMa 等等。 其中 WizardCoder 是效果非常好的模型。
+代码生成模型里面先后有 CodeGeex, StarCoder, WizardCoder, CodeLLaMa, Phind CodeLlama 等等。 其中 WizardCoder 是效果非常好的模型，而 Phind CodeLlama 的评测效果看起来比 WizardCoder 的更好。
 WizardCoder 是基于 StarCoder 和 LLaMa 的编码模型。
 
-ggml 量化版本可以在 mac studio ultra 的 cpu 上运行。没有量化的版本要在 A100 以上配置的GPU上面运行。也可以使用 WizardCoder Python 34B， 生成 Python 代码的效果比 15B 的更好。
+ggml/gguf 量化版本可以在 mac studio ultra 的 cpu 上运行, gguf 是新的格式，运行方式类似。没有量化的版本要在 A100 以上配置的GPU上面运行。也可以使用 WizardCoder Python 34B， 生成 Python 代码的效果比 15B 的更好。
 
 https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML
 
 https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0
 
 https://huggingface.co/TheBloke/WizardCoder-Python-34B-V1.0-GGUF
+
+Phind CodeLlama 34B 是基于 CodeLlama 34B 的代码生成模型，训练的时候使用了 8w 私有的高质量的编程问题和答案进行微调。 目前是开源的代码生成模型里面效果最好的。
+
+https://huggingface.co/TheBloke/Phind-CodeLlama-34B-v2-GGUF
+
+https://huggingface.co/Phind/Phind-CodeLlama-34B-v2
+
+https://www.phind.com/blog/code-llama-beats-gpt4
+
 
 **下载 GGML 模型，编译 Koboldcpp 来运行模型，提供 HTTP 服务可以在浏览器上访问**
 
