@@ -42,7 +42,7 @@ ChatGPT 发布了多模态的功能， 就是最早 GPT 4 发布的时候演示�
 ![ChatGPT询问天空中的云朵产生的原因](/images/chatgpt-can-now-see-hear-and-speak-alt.avif)
 
 ChatGPT 多模态功能的发布，意味着用户在日常生活中的很多场景可以跟 GPT 进行互动，跟 GPT 请教如何动手解决日常生活的问题。 
-比如说如何调解自行车座位高度，如何拆卸自行车，如何安装梳妆台甚至抽油烟机，如何拆卸电风扇，安装电脑主机等等。 这在一年前都是不可思议的事情。现在 GPT 可以手把手教我们如何动手解决问题。
+比如说如何调节自行车座位高度，如何拆卸自行车，如何安装梳妆台甚至抽油烟机，如何拆卸电风扇，安装电脑主机等等。 这在一年前都是不可思议的事情。现在 GPT 可以手把手教我们如何动手解决问题。
 
 这次官方给了 App 版本的几个例子。 一个例子是一张图片，对着天空拍一张图，问 ChatGPT “引起这种云的原因是”， 然后 GPT 理解图片后可以给出答复。 还有一个例子是跟 ChatGPT 求助如何调低山地车的座位高度。
 
@@ -148,8 +148,8 @@ python3.10 /Users/david/workspace/WizardCoder-15B-1.0-GGML/koboldcpp/koboldcpp.p
 * Amounts to Gen 设置成512， Format 设置成 Instruction Mode，勾选 Markdown，以便能看到代码的格式化输出。
 * koboldcpp 支持流式输出， 只需要在 URL 后面增加  streaming=1 的参数即可，例如： http://localhost:8000/?streaming=1#
 
-WizardCoder 代码生成的效果，远远好于 StarCoder 和 CodeGeex。 我跑的还是量化的版本。提了一个问题，让计算圆柱体体积， 27s 输出完整的代码。 "Implement a Python function to calculate volume for Cylinders"
+WizardCoder 代码生成的效果，远远好于 StarCoder 和 CodeGeex，而 Phind CodeLlama 34B 的更好一些。 我跑的还是量化的版本。提了一个问题，让计算圆柱体体积， 27s 输出完整的代码，效果相当好: “Implement a Python function to calculate volume for Cylinders”。
 
-生成代码的用的这个： https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML
+生成代码使用的量化模型： https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GGML
 
 WizardCoder 支持中文的输入。
