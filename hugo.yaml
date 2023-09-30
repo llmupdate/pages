@@ -4,6 +4,8 @@ paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
+hasCJKLanguage: true 
+
 buildDrafts: false
 buildFuture: false
 buildExpired: false

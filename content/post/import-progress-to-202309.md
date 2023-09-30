@@ -133,7 +133,7 @@ https://huggingface.co/baichuan-inc/Baichuan-7B
 
 OpenAI在6月13号升级了ChatGPT，推出了函数调用（Function calling），可以在调用 ChatGPT 的接口时，通过 functions 告诉 ChatGPT 我们有哪些函数可以调用， 然后 ChatGPT 根据请求条件自动判断建议调用的函数名，以及参数，使用 json 格式返回， 在返回结果的 function_call 里面返回函数和参数的信息。
 
-这样开发者收到返回之后，可以调用本地服务器的函数。从而达到使得 ChatGPT 可以跟外部系统交互的目的， 因此也实现了 Langchain 期初设计的时候解决的大量问题。 包括联网查搜索引擎，查天气，查股票，购物，订餐，知识库问答等等功能都可以实现。
+这样开发者收到返回之后，可以调用本地服务器的函数。从而达到使得 ChatGPT 可以跟外部系统交互的目的， 因此也实现了 Langchain 起初设计的时候解决的大量问题。 包括联网查搜索引擎，查天气，查股票，购物，订餐，知识库问答等等功能都可以实现。
 
 https://openai.com/blog/function-calling-and-other-api-updates
 
@@ -228,7 +228,7 @@ GPT 4 的学术能力，逻辑能力，专业能力大幅提升。GPT-4 可以�
 GPT-4 回答的准确性也比 GPT-3.5 高很多，产生的内容也更加安全，有更好的创造性和协作性能。
 
 在 GPT-3.5 版本模型下，ChatGPT 的 SAT 成绩只能排倒数 10% 的水平，然而 GPT-4 模型可以超越 90% 考生的水平。
-期初 GPT-4 只开放到了部分 ChatGPT Plus 的订阅用户，后来逐渐开放到了所有用户。
+起初 GPT-4 只开放到了部分 ChatGPT Plus 的订阅用户，后来逐渐开放到了所有用户。
 
 https://openai.com/research/gpt-4
 
@@ -277,7 +277,7 @@ https://ai.googleblog.com/2017/08/transformer-novel-neural-network.html
 Langchain 使得 LLM 模型可以与外部数据源、外部系统进行交互。
 从而可以增加联网、数据分析、知识库问答，外部系统 API 调用等等功能。 使得 LLM 可以结合丰富的 Agent 来完成不同任务。
 
-期初 Langchain 是配合 GPT-3 使用的框架，后来对于 ChatGPT, LLaMa 等 LLM 框架有了成熟的支持。 Langchain 是围绕 LLM 进行应用开发的利器。
+起初 Langchain 是配合 GPT-3 使用的框架，后来对于 ChatGPT, LLaMa 等 LLM 框架有了成熟的支持。 Langchain 是围绕 LLM 进行应用开发的利器。
 
 Langchain 在 2023/04 获得2000万美金的融资。
 
