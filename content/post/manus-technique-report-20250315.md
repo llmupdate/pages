@@ -1,9 +1,40 @@
 ---
-title: "解锁 Manus -  探索 AI 智能体 Manus 背后的魔法"
+title: "解锁 Manus -  探索 AI 智能体 Manus 背后的黑魔法"
 date: 2025-03-15T08:45:01+08:00
 tags: ["Agent", "Browser Use", "Computer Use", "Manus", "AGI"]
 categories: ["LLM List", "Progress", "AI Agent"]
 draft: false
+# weight: 1
+# aliases: ["/first"]
+author: "David"
+# author: ["Me", "You"] # multiple authors
+
+showToc: true
+TocOpen: false
+hidemeta: false
+comments: false
+description: "Desc Text."
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: true
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/llmupdate/pages/manus-technique-report-20250315.md"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 # 解锁 Manus - 探索 AI 智能体 Manus 背后的魔法
@@ -208,11 +239,11 @@ Manus 的"魔法"能力源于其基于领先推理能力的基础模型，加上
 
 扫码加入如下群进一步讨论智能体 Agent 技术, 包含  Manus, Claude MCP, OpenAI Operator, Browser/Computer Use, Deep Research, GLM-PC, CrewAI, SmolAgent, AutoGen, AG2, OpenHands 等：
 
-![Pasted image 20250315193020.png](/images/manus/Pasted%20image%2020250315193020.png)
+![Pasted image 20250315193020.png](/images/manus/AI_Agent_Tech_no_title.png)
 
 扫码加入如下群，讨论 智能体产品的使用（非技术）
 
-![Pasted image 20250315193037.png](/images/manus/Pasted%20image%2020250315193037.png)
+![Pasted image 20250315193037.png](/images/manus/AI_Agent_User_no_title.png)
 ---
 
 *发布于 2025 年 3 月 15 日*
