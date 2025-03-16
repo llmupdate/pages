@@ -51,6 +51,12 @@ Manus 刚刚出来，不少朋友家人问我，Manus 的能力真的很强吗�
 从技术角度来讲，实际上 Manus 的工作空间在 Visual Studio Code Server 中，这个 Code Server 运行在 Ubuntu 的容器之上，Code Server 实际就是 VS Code 的一个开发环境，用户可以通过浏览器打开这个开发环境，用户在 Code Server 中可以打开 Terminal 来执行任意的命令。
 
  文章末尾有介绍如何使用 Manus 能够达到最好效果，如何避免使用 Manus 的各种坑。
+ * 如何恢复因为高负载停止的 Manus 任务
+ * 如何从 Manus 的 workspace 进入到 Terminal
+ * 如何从 Manus 的 workspace 中安装软件包，执行命令
+ * 如何下载已经实现完成项目，但是测试或者发布失败的 Manus 任务的工作空间到本地
+ * 如何让 Manus 在遇到上下文过程的问题之后，继续工作（竟然可以这样！！！）
+
 -- 
 
 ## 对于 Manus 的总体评价
