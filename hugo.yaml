@@ -1,6 +1,6 @@
 baseURL: "https://llmupdate.com"
 title: LLM Update - 大模型周报
-paginate: 5
+#paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
